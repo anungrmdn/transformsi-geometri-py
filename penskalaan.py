@@ -47,7 +47,6 @@ print("A'",[ax2, ay2])
 print("B'",[bx2, by2])
 print("C'",[cx2, cy2])
    
-# create a figure and axes
 fig, ax = plt.subplots()
 
 
@@ -61,7 +60,6 @@ if limx > 0:
 if limy > 0:
     limy = 0
     
-# set x, y-axis limits 
 ax.set_xlim(limx - 1, np.max([tampx1, tampx2]) + 1)
 ax.set_ylim(limy - 1, np.max([tampy1, tampy2]) + 1)
 
