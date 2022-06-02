@@ -82,7 +82,6 @@ tampy2 = np.array([matrixaresult[1],
                    matrixaresult[1]])
 
 
-# create a figure and axes
 fig, ax = plt.subplots()
 
 
@@ -96,7 +95,7 @@ if limx > 0:
 if limy > 0:
     limy = 0
     
-# set x, y-axis limits 
+
 ax.set_xlim(limx - 1, np.max([tampx1, tampx2]) + 1)
 ax.set_ylim(limy - 1, np.max([tampy1, tampy2]) + 1)
 
