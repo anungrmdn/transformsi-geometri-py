@@ -28,8 +28,6 @@ print("===============================================================")
 ta=int(input('Masukan titik untuk nilai T a:'))
 tb=int(input('Masukan titik untuk nilai T b:'))
 
-#Rumus (x',y') = (x,y)+(a,b)
-
 ax2 = ax + ta
 bx2 = bx + ta
 cx2 = cx + ta
